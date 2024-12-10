@@ -1,4 +1,4 @@
-baseURL = 'https://JuiceBlog.github.io/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Juice Blog'
 
@@ -10,4 +10,4 @@ paginate = 4
 
 [taxonomies]
  category = "categories"
- author = "authors"
+ author = "authors" 

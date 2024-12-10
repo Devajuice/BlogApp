@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/authors/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/authors/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/categories/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/authors/devajuice/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/authors/devajuice/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post-copy-2/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post-copy-2/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post-copy-3/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post-copy-3/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post-copy-4/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post-copy-4/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post-copy-5/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post-copy-5/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post-copy/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post-copy/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/my-first-post/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/my-first-post/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>https://example.org/categories/notes/</loc>
+    <loc>https://juiceblog-sooty.vercel.app/categories/notes/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url>
 </urlset>
