@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Juice Blog'
+
+paginate = 4
+
+[params]
+ description = "The page where you get notes."
+ dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+ category = "categories"
+ author = "authors"
