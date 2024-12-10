@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devajuice on Juice Blog</title>
-    <link>https://example.org/authors/devajuice/</link>
+    <link>/authors/devajuice/</link>
     <description>Recent content in Devajuice on Juice Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2024 21:48:22 +0530</lastBuildDate>
-    <atom:link href="https://example.org/authors/devajuice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/authors/devajuice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elasticity Of Demand</title>
-      <link>https://example.org/elasticity-of-demand/</link>
+      <link>/elasticity-of-demand/</link>
       <pubDate>Sun, 08 Dec 2024 21:48:22 +0530</pubDate>
-      <guid>https://example.org/elasticity-of-demand/</guid>
+      <guid>/elasticity-of-demand/</guid>
       <description>&lt;h1 id=&#34;elasticity-of-demand&#34;&gt;Elasticity Of Demand:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The elasticity of demand refers to the percentage change in demand for a commodity with respect to. percentage change in any of the factors affecting demand for that commodity.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;1-price-elasticity-of-demand&#34;&gt;1. Price Elasticity of Demand:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This refers to the percentage change in demand for a commodity with respect to the percentage change in the Price of the given commodity.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-cross-elasticity-of-demand&#34;&gt;2. Cross Elasticity of Demand:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This refers to the percentage change in demand for a commodity with respect to the percentage change in the Price of a related good (substitute or complementary goods.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-income-elasticity-of-demand&#34;&gt;3. Income Elasticity of Demand:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This refers to the percentage change in demand for a commodity with respect to the percentage change in The income of consumers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;price-elasticity-of-demand&#34;&gt;Price Elasticity of Demand&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Price Elasticity of Demand means the degree of responsiveness of demand for a commodity with reference to change in the price of such commodity.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;percentage-method-for-measuring-price-elasticity-of-demand&#34;&gt;Percentage Method for Measuring Price Elasticity of Demand&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It is measured as the ratio of the percentage change in the quantity demanded to the percentage change in the price.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
