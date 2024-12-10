@@ -1,6 +1,7 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'Juice Blog'
+favico = true
 
 paginate = 4
 
