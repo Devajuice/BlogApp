@@ -1,11 +1,11 @@
 +++
 date = '2024-12-10T22:44:57+05:30'
 draft = false
-title = 'ConsumersEquilibrium'
-description = ""
-image = ""
-imageBig = ""
-categories = ["Notes"]
+title = 'Consumers Equilibrium'
+description = "These are notes about the chapter Consumers Equilibrium."
+image = "/images/ConsumersEqulilbrium.webp"
+imageBig = "/images/CE2.webp"
+categories = ["Notes", "Microeconomics"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++
