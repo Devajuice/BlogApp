@@ -14,13 +14,13 @@ This is a Hugo static site generator project for my blog.
 
 **Prerequisites:**
 
-* Hugo installed: [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+* Hugo: [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 
 **Running the blog locally:**
 
 1. Clone this repository.
 2. Open a terminal in the project directory.
-3. Run `hugo server -D` to start the development server. Your blog should be accessible at http://localhost:1313 by default.
+3. Run `hugo server -D` to start the development server. Your blog should be accessible at `http://localhost:1313` by default.
 4. Make changes to your blog posts and content in the `content` directory.
 5. Changes are automatically reflected in the development server.
 
@@ -29,16 +29,15 @@ This is a Hugo static site generator project for my blog.
 1. Run `hugo` in the terminal to build the static HTML files for your blog.
 2. The generated HTML files are located in the `public` directory. You can deploy these files to your web server or hosting platform.
 
-
 ### Content Structure
 
 * **`content` directory:** This directory contains all your blog posts and content.
-    * **Posts:**
-        * Each blog post is a separate Markdown file with a filename typically prefixed with a date (YYYY-MM-DD) and a slug (e.g., `2024-12-12-my-first-hugo-post.md`).
-        * Use the frontmatter section at the top of the file to define post metadata like title, tags, and categories. 
+  * **Posts:**
+        *Each blog post is a separate Markdown file with a filename typically prefixed with a date (YYYY-MM-DD) and a slug (e.g., `2024-12-12-my-first-hugo-post.md`).
+        * Use the frontmatter section at the top of the file to define post metadata like title, tags, and categories.
     * **Pages (Optional):**
-        * You can also create static pages for your blog (e.g., "About", "Contact").
-        * Create these pages as Markdown files in subdirectories within the `content` directory.
+      * You can also create static pages for your blog (e.g., "About", "Contact").
+      * Create these pages as Markdown files in subdirectories within the `content` directory.
 
 **For further details on Hugo features and content management, refer to the official documentation:**
 
