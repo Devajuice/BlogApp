@@ -91,7 +91,7 @@ avatar = "/images/avatar.webp"
 
 # Difference between Memorandum of Association and Articles of Association
 
-| Num | Memorandum of Association                                  | Articles of Association                                      |
+| No | Memorandum of Association                                  | Articles of Association                                      |
 | --- | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | 1.  | It defines the object of the company.                      | It defines the rules of Internal management of the company.  |
 | 2.  | It is the main document of the company.                    | It is a subsidiary document of the company.                  |
