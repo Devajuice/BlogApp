@@ -5,7 +5,7 @@ title = 'Formation Of A Company'
 description = "This guide provides an in-depth look into the process of forming a company in India, with a focus on the key stages involved: promotion and incorporation."
 image = "/images/BST/FOC.webp"
 imageBig = "/images/BST/FOC2.webp"
-categories = ["Notes", "Business Studies"]
+categories = ["Notes", "Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++
