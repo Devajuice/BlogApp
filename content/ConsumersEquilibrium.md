@@ -2,7 +2,7 @@
 date = '2024-12-10T22:44:57+05:30'
 draft = false
 title = 'Consumers Equilibrium'
-description = "These are notes about the chapter Consumers Equilibrium."
+description = "This guide explores the concept of consumer equilibrium, a fundamental economic principle that explains how consumers make rational choices to maximize their satisfaction."
 image = "/images/Microeconomics/ConsumersEqulilbrium.webp"
 imageBig = "/images/Microeconomics/CE2.webp"
 categories = ["Notes", "Microeconomics"]

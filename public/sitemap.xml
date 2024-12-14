@@ -2,37 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/business-studies/</loc>
+    <loc>https://juiceblogs.vercel.app/categories/business-studies/</loc>
+    <lastmod>2024-12-14T13:45:32+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/categories/</loc>
+    <lastmod>2024-12-14T13:45:32+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/formationofacompany/</loc>
+    <lastmod>2024-12-14T13:45:32+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/</loc>
+    <lastmod>2024-12-14T13:45:32+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/categories/notes/</loc>
+    <lastmod>2024-12-14T13:45:32+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/smallbusinessandentrepreneurship/</loc>
     <lastmod>2024-12-14T11:21:54+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-12-14T11:21:54+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-12-14T11:21:54+05:30</lastmod>
-  </url><url>
-    <loc>/categories/notes/</loc>
-    <lastmod>2024-12-14T11:21:54+05:30</lastmod>
-  </url><url>
-    <loc>/smallbusinessandentrepreneurship/</loc>
-    <lastmod>2024-12-14T11:21:54+05:30</lastmod>
-  </url><url>
-    <loc>/consumersequilibrium/</loc>
+    <loc>https://juiceblogs.vercel.app/consumersequilibrium/</loc>
     <lastmod>2024-12-10T22:44:57+05:30</lastmod>
   </url><url>
-    <loc>/categories/microeconomics/</loc>
+    <loc>https://juiceblogs.vercel.app/categories/microeconomics/</loc>
     <lastmod>2024-12-10T22:44:57+05:30</lastmod>
   </url><url>
-    <loc>/introduction/</loc>
+    <loc>https://juiceblogs.vercel.app/introduction/</loc>
     <lastmod>2024-12-10T21:40:35+05:30</lastmod>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>https://juiceblogs.vercel.app/authors/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>/authors/devajuice/</loc>
+    <loc>https://juiceblogs.vercel.app/authors/devajuice/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url><url>
-    <loc>/elasticity-of-demand/</loc>
+    <loc>https://juiceblogs.vercel.app/elasticity-of-demand/</loc>
     <lastmod>2024-12-08T21:48:22+05:30</lastmod>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Juice Blog</title>
-    <link>/authors/</link>
+    <link>https://juiceblogs.vercel.app/authors/</link>
     <description>Recent content in Authors on Juice Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2024 21:48:22 +0530</lastBuildDate>
-    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://juiceblogs.vercel.app/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devajuice</title>
-      <link>/authors/devajuice/</link>
+      <link>https://juiceblogs.vercel.app/authors/devajuice/</link>
       <pubDate>Sun, 08 Dec 2024 21:48:22 +0530</pubDate>
-      <guid>/authors/devajuice/</guid>
+      <guid>https://juiceblogs.vercel.app/authors/devajuice/</guid>
       <description></description>
     </item>
   </channel>

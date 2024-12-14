@@ -2,7 +2,7 @@
 date = '2024-12-10T21:40:35+05:30'
 draft = false
 title = 'Introduction'
-description = "These are notes about the introduction chapter in Unit-1 of Microeconomics."
+description = "This comprehensive guide delves into the fundamental concepts of microeconomics, exploring how individual economic agents make decisions and interact within markets."
 image = "/images/Microeconomics/Introduction.webp"
 imageBig = "/images/Microeconomics/Introduction2.webp"
 categories = ["Notes", "Microeconomics"]

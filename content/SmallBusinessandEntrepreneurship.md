@@ -2,7 +2,7 @@
 date = '2024-12-14T11:21:54+05:30'
 draft = false
 title = 'Small Business and Entrepreneurship'
-description = "These are notes about Small Business and Entrepreneurship"
+description = "This comprehensive guide explores the world of small businesses and entrepreneurship,"
 image = "/images/BST/SBE.webp"
 imageBig = "/images/BST/SBE2.webp"
 categories = ["Notes", "Business Studies"]
