@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=This&#32;is&#32;a&#32;comprehensive&#32;guide&#32;to&#32;MySQL,&#32;a&#32;popular&#32;relational&#32;database&#32;management&#32;system&#32;(RDBMS).&#32;It&#32;covers&#32;the&#32;basics&#32;of&#32;databases,&#32;SQL&#32;(Structured&#32;Query&#32;Language),&#32;data&#32;types,&#32;constraints,&#32;and&#32;data&#32;manipulation&#32;techniques.>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+    <title>Introduction To MySQL</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+    <div class="logo">
+        <a href="/">Juice Blog</a>
+    </div>
+    <div class="links ">
+        <div class="toggle">
+            <svg width="20px" height="20px" viewBox="-0.14 0 20.03 20.03" fill="#000000">
+                <g id="moon-alt" transform="translate(-2.25 -2)">
+                    <path id="secondary" fill="#ffe01b"
+                        d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"></path>
+                </g>
+            </svg>
+            <div class="ball"></div>
+            <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+                <g id="sun" transform="translate(-2 -2)">
+                    <circle id="secondary" fill="#ffe01b" cx="4" cy="4" r="4" transform="translate(8 8)"></circle>
+                    <path id="primary"
+                        d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+                        fill="none" stroke="#ffe01b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <a href="/">Homepage</a>
+        <a href="/categories">Categories</a>
+        <div class="searchButton">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                    stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <span>Search</span>
+        </div>
+    </div>
+</nav>
+        
+<div class="single">
+    <div class="singleHead">
+        <div class="singleHeadTexts">
+            <h1 class="singleHeadTitle">Introduction To MySQL</h1>
+            <p class="singleHeadDesc">This is a comprehensive guide to MySQL, a popular relational database management system (RDBMS). It covers the basics of databases, SQL (Structured Query Language), data types, constraints, and data manipulation techniques.</p>
+            <div class="singleHeadDetail">
+                <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
+                <span>
+                </span>
+                
+                <a href=https://juiceblogs.vercel.app/categories/notes/ class="singleCategory">Notes</a>
+                
+                <a href=https://juiceblogs.vercel.app/categories/i.p/ class="singleCategory">I.P</a>
+                
+            </div>
+            <time>Dec 15, 2024</time>
+        </div>
+        <img src=/images/I.P/MySQL2.webp alt=Introduction&#32;To&#32;MySQL class="singleHeadImg">
+    </div>
+    <div class="singleBottom">
+        <div class="singleContent"><h1 id="introduction">Introduction</h1>
+<ul>
+<li>Many RDBMS exist, such as <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.microsoft.com/en-in/sql-server/sql-server-downloads">Microsoft SQL Server</a>, <a href="https://www.postgresql.org/">PostgreSQL</a>, <a href="https://www.oracle.com/">Oracle</a>, etc. These allow us to create a database of relations and link one or more relations for efficient querying to store, retrieve, and manipulate data on that database.</li>
+</ul>
+<h1 id="structured-query-languagesql">Structured Query Language(SQL)</h1>
+<ul>
+<li>The Structured Query Language(SQL) is the most popular query language used by major relational database management systems such as <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.oracle.com/">Oracle</a>,  <a href="https://www.microsoft.com/en-in/sql-server/sql-server-downloads">SQL Server</a>, etc.</li>
+</ul>
+<h1 id="data-type-of-attribute">Data type of Attribute</h1>
+<ul>
+<li>Data type indicates the type of data value that an attribute can have. The data type of an attribute decides the operations that can be performed on the data of that attribute.</li>
+</ul>
+<h2 id="commonly-used-data-types-in-mysql">Commonly used data types in MySQL</h2>
+<h3 id="1-char">1. CHAR</h3>
+<ul>
+<li><code>CHAR</code> is of fixed length, which means declaring <code>CHAR(10)</code> implies reserving spaces for ten characters.</li>
+</ul>
+<h3 id="2-varchar">2. VARCHAR</h3>
+<ul>
+<li><code>VARCHAR</code> is a variable-length data type. Declaring <code>VARCHAR(30)</code> means a maximum of 30 characters can be stored, but the actual allocated bytes will depend on the length of the entered string.</li>
+</ul>
+<h3 id="3-int">3. INT</h3>
+<ul>
+<li><code>INT</code> specifies an integer value. Each <code>INT</code> value occupies <em><strong>4 bytes</strong></em> of storage. The range of values allowed in integer type are <em><strong>-2147483648</strong></em> to <em><strong>2147483647</strong></em>.</li>
+</ul>
+<h3 id="4-float">4. FLOAT</h3>
+<ul>
+<li>Holds numbers with decimal points. Each <code>FLOAT</code> value occupies <em><strong>4 bytes</strong></em>.</li>
+</ul>
+<h3 id="5-date">5. DATE</h3>
+<ul>
+<li>The <code>DATE</code> type is used for dates in the &lsquo;<strong>YYYY-MM-DD</strong>&rsquo; format. It is the four-digit year, <strong>MM</strong> is the two-digit month, and <strong>DD</strong> is the two-digit date. The supported range is &lsquo;<strong>1000-01-01</strong>&rsquo; to &lsquo;<strong>9999-12-31&rsquo;</strong>.</li>
+</ul>
+<h1 id="constraints">Constraints</h1>
+<ul>
+<li>Constraints are certain types of restrictions on the data values that an attribute can have. They are used to ensure the accuracy and reliability of data.</li>
+</ul>
+<h1 id="sql-for-data-definition">SQL for Data Definition</h1>
+<ul>
+<li>SQL provides commands for <em>defining</em> the <em>relation schemas</em>, <em>modifying relation schemas</em> and <em>deleting relations</em>. These are called <strong>Data Definition Language</strong>(<strong>DDL</strong>), through which the set of relations are specified, including their schema, data type for each attribute, the constraints, as well as the security and access-related authorisations.</li>
+</ul>
+<h2 id="create-database">Create Database</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> databasename;
+</span></span></code></pre></div><ul>
+<li>A DBMS can manage multiple databases on one computer. Therefore, we need to select the database that we want to use. Once the database is selected, we can proceed with creating tables or querying data.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>USE databasename;
+</span></span></code></pre></div><h2 id="create-table">Create Table</h2>
+<ul>
+<li>After creating a database, we need to define relations(create tables) in the database and specify attributes for each relation, along with data types for each attribute. This is done using the <code>CREATE TABLE</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> tablename(
+</span></span><span style="display:flex;"><span>attributename1 datatype <span style="color:#66d9ef">constraint</span>,
+</span></span><span style="display:flex;"><span>attributename2 datatype <span style="color:#66d9ef">constraint</span>
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><ul>
+<li>The attribute name specifies the name of the column in the table.</li>
+<li>Datatype specifies the type of data that an attribute can hold.</li>
+<li>Constraint indicates the restrictions imposed on the values of an attribute. By default, each attribute can take NULL values except for the primary key.</li>
+</ul>
+<h2 id="describe-table">Describe Table</h2>
+<ul>
+<li>We can view the structure of an already created table using the describe statement.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DESC</span> tablename;
+</span></span></code></pre></div><h2 id="alter-table">Alter Table</h2>
+<ul>
+<li>After creating a table, we may realise that we need to add/remove an attribute, modify the datatype of an existing attribute, or add a constraint in the attribute. In all such cases, we need to change or alter the structure of the table by using the alter statement.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> tablename <span style="color:#66d9ef">ADD</span><span style="color:#f92672">/</span><span style="color:#66d9ef">Modify</span><span style="color:#f92672">/</span><span style="color:#66d9ef">DROP</span> attribute1, attribute2,.....
+</span></span></code></pre></div><h3 id="a-add-primary-key-to-a-relation">(A) Add Primary Key to a relation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> tablename <span style="color:#66d9ef">ADD</span> <span style="color:#66d9ef">PRIMARY</span> <span style="color:#66d9ef">KEY</span>(GUID);
+</span></span></code></pre></div><h3 id="b-add-foreign-key-to-a-relation">(B) Add foreign key to a relation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> tablename <span style="color:#66d9ef">ADD</span> <span style="color:#66d9ef">FOREIGN</span> <span style="color:#66d9ef">KEY</span>(GUID) <span style="color:#66d9ef">REFERENCES</span> referencedtablename(attributename);
+</span></span></code></pre></div><ul>
+<li>The referenced relation must be already created.</li>
+<li>The referenced attribute must be a part of the primary key of the referenced relation.</li>
+<li>Data types and sizes of referenced and referencing attributes must be the same.</li>
+</ul>
+<h3 id="c-add-constraint-unique-to-an-existing-attribute">(C) Add constraint <em>UNIQUE</em> to an existing attribute</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> tablename <span style="color:#66d9ef">ADD</span> <span style="color:#66d9ef">UNIQUE</span>(attribute name);
+</span></span></code></pre></div><h3 id="d-add-an-attribute-to-an-existing-table">(D) Add an attribute to an existing table</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> tablename <span style="color:#66d9ef">ADD</span> attribute_name DATATYPE;
+</span></span></code></pre></div><h3 id="e-modify-the-constraint-of-an-attribute">(E) Modify the constraint of an attribute</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">MODIFY</span> attribute DATATYPE <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>;
+</span></span></code></pre></div><h3 id="f-modify-datatype-of-an-attribute">(F) Modify datatype of an attribute</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">MODIFY</span> attribute DATATYPE;
+</span></span></code></pre></div><h3 id="g-add-a-default-value-to-an-attribute">(G) Add a default value to an attribute</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">MODIFY</span> attribute DATATYPE <span style="color:#66d9ef">DEFAULT</span> default_value;
+</span></span></code></pre></div><h3 id="h-remove-an-attribute">(H) Remove an attribute</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">DROP</span> attribute;
+</span></span></code></pre></div><h3 id="i-remove-the-primary-key-from-the-table">(I) Remove the primary key from the table</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">DROP</span> <span style="color:#66d9ef">PRIMARY</span> <span style="color:#66d9ef">KEY</span>;
+</span></span></code></pre></div><h1 id="drop-statement">Drop Statement</h1>
+<ul>
+<li>Sometimes, a table in a database or the database itself needs to be removed. We can use a <code>DROP</code> statement to remove a database or a table permanently from the system.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DROP</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#66d9ef">table_name</span>;
+</span></span></code></pre></div><h1 id="insertion-of-records">Insertion of Records</h1>
+<ul>
+<li><code>INSERT INTO</code> statement is used to insert new records in a table.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">INSERT</span> <span style="color:#66d9ef">INTO</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">VALUES</span>(value1, value2,......);
+</span></span></code></pre></div><h1 id="sql-for-data-query">SQL for Data Query</h1>
+<h2 id="select-statement">SELECT Statement</h2>
+<ul>
+<li>The SQL statement <code>SELECT</code> is used to retrieve data from the tables in a database, and the output is also displayed in a tabular form.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> attribute1, attribute2,... <span style="color:#66d9ef">FROM</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">WHERE</span> condition;
+</span></span></code></pre></div><h1 id="data-updation">Data Updation</h1>
+<ul>
+<li>The <code>UPDATE</code> statement is used to make such modifications in the existing data.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">UPDATE</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">SET</span> attribute1 <span style="color:#f92672">=</span> value1, attribute2 <span style="color:#f92672">=</span> value2,..... <span style="color:#66d9ef">WHERE</span> condition;
+</span></span></code></pre></div><h1 id="data-deletion">Data Deletion</h1>
+<ul>
+<li>The <code>DELETE</code> statement is used to delete one or more record(s) from a table.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DELETE</span> <span style="color:#66d9ef">FROM</span> <span style="color:#66d9ef">table_name</span> <span style="color:#66d9ef">WHERE</span> condition;
+</span></span></code></pre></div></div>
+        <div class="singleRightBar">
+            
+        </div>
+    </div>
+</div>
+
+        <div class="footer">
+    <div class="footerLinks">
+        <a href="/">Juice Blog</a> |
+        <a href="/categories">categories</a> |
+        <a href="/sitemap.xml">sitemap</a> |
+        <a href="https://github.com/Devajuice/BlogApp">GitHub</a> 
+    </div>
+</div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
