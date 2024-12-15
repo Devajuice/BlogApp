@@ -65,16 +65,16 @@ avatar = "/images/avatar.webp"
 
 # Difference between Equity Shares and Preference Shares
 
-| No  | Equity Shares                                      | Preference Shares                                |
-| --- | -------------------------------------------------- | ------------------------------------------------ |
-| 1)  | Equity compulsory to issue shares.                 | It is not compulsory to issue preference shares. |
-| 2)  | The rate of dividends varies.                      | The rate of dividend is fixed.                   |
-| 3)  | Face value is lower.                               | Face value is higher.                            |
-| 4)  | No priority in dividends and repayment of capital. | Priority in dividend and repayment of capital.   |
-| 5)  | It cannot be redeemed.                             | It can be redeemed.                              |
-| 6)  | The risk is high.                                  | The risk is low.                                 |
-| 7)  | Voting rights.                                     | No voting rights.                                |
-| 8)  | Participate in the management.                     | Not participate in the management.               |
+| No  |                   Equity Shares                    |                Preference Shares                 |
+| :-: | :------------------------------------------------: | :----------------------------------------------: |
+| 1)  |         Equity compulsory to issue shares.         | It is not compulsory to issue preference shares. |
+| 2)  |           The rate of dividends varies.            |          The rate of dividend is fixed.          |
+| 3)  |                Face value is lower.                |              Face value is higher.               |
+| 4)  | No priority in dividends and repayment of capital. |  Priority in dividend and repayment of capital.  |
+| 5)  |               It cannot be redeemed.               |               It can be redeemed.                |
+| 6)  |                 The risk is high.                  |                 The risk is low.                 |
+| 7)  |                   Voting rights.                   |                No voting rights.                 |
+| 8)  |           Participate in the management.           |        Not participate in the management.        |
 
 # Retained Earnings
 

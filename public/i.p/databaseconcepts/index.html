@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=Database&#32;Concepts:&#32;A&#32;Foundation&#32;for&#32;Data&#32;Management>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
+    <title>Database Concepts</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+    <div class="logo">
+        <a href="/">Juice Blog</a>
+    </div>
+    <div class="links ">
+        <div class="toggle">
+            <svg width="20px" height="20px" viewBox="-0.14 0 20.03 20.03" fill="#000000">
+                <g id="moon-alt" transform="translate(-2.25 -2)">
+                    <path id="secondary" fill="#ffe01b"
+                        d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"></path>
+                </g>
+            </svg>
+            <div class="ball"></div>
+            <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+                <g id="sun" transform="translate(-2 -2)">
+                    <circle id="secondary" fill="#ffe01b" cx="4" cy="4" r="4" transform="translate(8 8)"></circle>
+                    <path id="primary"
+                        d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+                        fill="none" stroke="#ffe01b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <a href="/">Homepage</a>
+        <a href="/categories">Categories</a>
+        <div class="searchButton">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                    stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <span>Search</span>
+        </div>
+    </div>
+</nav>
+        
+<div class="single">
+    <div class="singleHead">
+        <div class="singleHeadTexts">
+            <h1 class="singleHeadTitle">Database Concepts</h1>
+            <p class="singleHeadDesc">Database Concepts: A Foundation for Data Management</p>
+            <div class="singleHeadDetail">
+                <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
+                <span>
+                </span>
+                
+                <a href=https://juiceblogs.vercel.app/categories/notes/ class="singleCategory">Notes</a>
+                
+                <a href=https://juiceblogs.vercel.app/categories/i.p/ class="singleCategory">I.P</a>
+                
+            </div>
+            <time>Dec 15, 2024</time>
+        </div>
+        <img src=/images/I.P/DC2.webp alt=Database&#32;Concepts class="singleHeadImg">
+    </div>
+    <div class="singleBottom">
+        <div class="singleContent"><h1 id="limitations-of-manual-record-keeping">Limitations of Manual Record-Keeping</h1>
+<ol>
+<li>Repetition of Data</li>
+<li>Inconstancy</li>
+<li>Loss of Data</li>
+</ol>
+<h1 id="file-system">File System</h1>
+<ul>
+<li>A file can be understood as a container to store data in a computer. Files can be stored on the storage device of a computer system.</li>
+<li>Files stored on a computer can be accessed directly and searched for desired data.</li>
+</ul>
+<h1 id="limitation-of-a-file-system">Limitation of a File System</h1>
+<ul>
+<li>File system becomes difficult to handle when the number of files increases, and the volume of data also grows.</li>
+</ul>
+<h2 id="a-difficulty-in-access">(A) Difficulty in Access</h2>
+<ul>
+<li>Files themselves do not provide any mechanism to retrieve data.</li>
+</ul>
+<h2 id="b-data-redundancy">(B) Data Redundancy</h2>
+<ul>
+<li>Redundancy means the same data are duplicated in different places (files).</li>
+</ul>
+<h2 id="c-data-inconsistency">(C) Data Inconsistency</h2>
+<ul>
+<li>Data inconsistency occurs when the same data maintained in different places does not match.</li>
+</ul>
+<h2 id="d-data-isolation">(D) Data Isolation</h2>
+<ul>
+<li>Data mapping is not supported in the file system.</li>
+<li>It is difficult to write new application programs to retrieve data from different files maintained at multiple places, as one has to understand the underlying structure of each file.</li>
+</ul>
+<h2 id="e-data-dependence">(E) Data Dependence</h2>
+<ul>
+<li>Data are stored in a specific format or structure in a file. If the structure or format itself is changed, all the existing application programs accessing that file also need to be changed.</li>
+</ul>
+<h2 id="f-controlled-data-sharing">(F) Controlled Data Sharing</h2>
+<ul>
+<li>There can be different categories of users like teachers, office staff and parents.</li>
+<li>This means these users should be given limited access.</li>
+</ul>
+<h1 id="database-management-system">Database Management System</h1>
+<ul>
+<li>
+<p>Limitations faced in file systems can be overcome by storing the data in a database where data are logically related.</p>
+</li>
+<li>
+<p>A database management system (DBMS), or database system, in short, is software that can be used to create and manage databases.</p>
+</li>
+<li>
+<p>DBMS lets users create a database and store, manage, update/modify and retrieve data from that database by users or application programs.</p>
+</li>
+<li>
+<p>DBMS include MySQL, Oracle, PostgreSQL, SQL Server, Microsoft Access, and MongoDB.</p>
+</li>
+<li>
+<p>The DBMS serves as an interface between the database and end users or application programs.</p>
+</li>
+<li>
+<p>Retrieving data from a database through a special type of command is called querying the database.</p>
+<h3 id="difference-between-dbms-and-rdbms">Difference between DBMS and RDBMS</h3>
+<ul>
+<li>DBMS stands for Database Management System, and RDBMS is the acronym for the Relational Database Management system. In DBMS, the data is stored as a file, whereas in RDBMS, data is stored in the form of tables. To know what is the difference between RDBMS and DBMS, check out the table below.</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">No</th>
+          <th style="text-align: center">RDBMS</th>
+          <th style="text-align: center">DBMS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1)</td>
+          <td style="text-align: center">Data stored is in table format</td>
+          <td style="text-align: center">Data stored is in the file format</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2)</td>
+          <td style="text-align: center">Multiple data elements are accessible together</td>
+          <td style="text-align: center">Individual access of data elements</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3)</td>
+          <td style="text-align: center">Data in the form of a table are linked together</td>
+          <td style="text-align: center">No connection between data</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">4)</td>
+          <td style="text-align: center">Normalisation is not achievable</td>
+          <td style="text-align: center">There is normalisation</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">5)</td>
+          <td style="text-align: center">Support distributed database</td>
+          <td style="text-align: center">No support for distributed database</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">6)</td>
+          <td style="text-align: center">Data is stored in a large amount</td>
+          <td style="text-align: center">Data stored is a small quantity</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">7)</td>
+          <td style="text-align: center">Here, redundancy of data is reduced with the help of key and indexes in RDBMS</td>
+          <td style="text-align: center">Data redundancy is common</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8)</td>
+          <td style="text-align: center">RDBMS supports multiple users</td>
+          <td style="text-align: center">DBMS supports a single user</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">9)</td>
+          <td style="text-align: center">It features multiple layers of security while handling data</td>
+          <td style="text-align: center">There is only low security while handling data</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">10)</td>
+          <td style="text-align: center">The software and hardware requirements are higher</td>
+          <td style="text-align: center">The software and hardware requirements are low</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">11)</td>
+          <td style="text-align: center">EG: Oracle, SQL Server.</td>
+          <td style="text-align: center">EG: XML, Microsoft Access.</td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="key-concepts-in-dbms">Key Concepts in DBMS</h1>
+<h2 id="a-database-schema">(A) Database Schema</h2>
+<ul>
+<li>Database Schema is the design of a database. It is the skeleton of the database that represents the structure (table names and their fields/columns), the type of data each column can hold, constraints on the data to be stored (if any), and the relationships among the tables.</li>
+<li>Database schema is also called the visual or logical architecture.</li>
+</ul>
+<h2 id="b-data-constraint">(B) Data Constraint</h2>
+<ul>
+<li>Certain restrictions or limitations on the type of data that can be inserted in one or more columns of a table.</li>
+</ul>
+<h2 id="c-meta-data-or-data-dictionary">(C) Meta-data or Data Dictionary</h2>
+<ul>
+<li>The database schema along with various constraints on the data is stored by DBMS in a database catalog or dictionary, called meta-data. A meta-data is data about the data.</li>
+</ul>
+<h2 id="d-database-instance">(D) Database Instance</h2>
+<ul>
+<li>The state or snapshot of the database at any given time is the database instance.</li>
+</ul>
+<h2 id="e-query">(E) Query</h2>
+<ul>
+<li>A query is a request to a database for obtaining information in a desired way.</li>
+</ul>
+<h2 id="f-data-manipulation">(F) Data Manipulation</h2>
+<ul>
+<li>Modification of database consists of three operations viz. Insertion, Deletion or Update. This is called Update operation on the database.</li>
+</ul>
+<h2 id="g-database-engine">(G) Database Engine</h2>
+<ul>
+<li>Database engine is the underlying component or set of programs used by a DBMS to create database and handle various queries for data retrieval and manipulation.</li>
+</ul>
+<h1 id="relational-data-model">Relational Data Model</h1>
+<h2 id="attribute">ATTRIBUTE</h2>
+<ul>
+<li>The columns of a relation are the attributes which are also referred as fields.</li>
+</ul>
+<h2 id="tuple">TUPLE</h2>
+<ul>
+<li>Each row of data in a relation (table) is called a tuple.</li>
+</ul>
+<h2 id="domain">DOMAIN</h2>
+<ul>
+<li>It is a set of values from which an attribute can take a value in each row.</li>
+</ul>
+<h2 id="degree">DEGREE</h2>
+<ul>
+<li>The number of attributes in a relation is called the Degree of the relation.</li>
+</ul>
+<h2 id="cardinality">CARDINALITY</h2>
+<ul>
+<li>The number of tuples in a relation is called the Cardinality of the relation.</li>
+</ul>
+<h1 id="keys-in-a-relational-database">Keys in a Relational Database</h1>
+<h2 id="candidate-key">Candidate Key</h2>
+<ul>
+<li><em><strong>Attributes</strong></em> can be used to uniquely identify the <em><strong>tuples</strong></em> in the relation. Such attributes are called <em><strong>candidate keys</strong></em> as each of them are candidates for the <em><strong>primary key</strong></em>.</li>
+</ul>
+<h2 id="primary-key">Primary Key</h2>
+<ul>
+<li>Out of one or more candidate keys, the attribute chosen by the database designer to uniquely identify the tuples in a relation is called the primary key of that relation.</li>
+</ul>
+<h2 id="composite-primary-key">Composite Primary Key</h2>
+<ul>
+<li>If no single attribute in a relation is able to uniquely distinguish the tuples, then more than one attribute are taken together as primary key. Such primary key consisting of more than one attribute is called Composite Primary key.</li>
+</ul>
+<h2 id="foreign-key">Foreign Key</h2>
+<ul>
+<li>A foreign key is used to represent the relationship between two relations. A foreign key is an attribute whose value is derived from the primary key of another relation.</li>
+</ul>
+</div>
+        <div class="singleRightBar">
+            
+        </div>
+    </div>
+</div>
+
+        <div class="footer">
+    <div class="footerLinks">
+        <a href="/">Juice Blog</a> |
+        <a href="/categories">categories</a> |
+        <a href="/sitemap.xml">sitemap</a> |
+        <a href="https://github.com/Devajuice/BlogApp">GitHub</a> 
+    </div>
+</div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

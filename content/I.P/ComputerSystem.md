@@ -36,12 +36,12 @@ avatar = "/images/avatar.webp"
 
 - A computer system uses binary numbers to store and process data. The binary digits 0 and 1, which are the basic units of memory, are called bits. Further, these bits are grouped to form words. A 4-bit word is called a **Nibble**. A two-nibble word, an 8-bit word, is called a **Byte**.
 
-| Unit         | Description       | Unit          | Description    |
-| ------------ | ----------------- | ------------- | -------------- |
+|     Unit     |    Description    |     Unit      |  Description   |
+| :----------: | :---------------: | :-----------: | :------------: |
 | KB(Kilobyte) | 1 KB = 1024 Bytes | PB(Petabyte)  | 1 PB = 1024 TB |
-| MB(Megabyte) | 1 MB = 1024 KB    | EB(Exabyte)   | 1 EB = 1024 PB |
-| GB(Gigabyte) | 1 GB = 1024 MB    | ZB(Zettabyte) | 1 ZB = 1024 EB |
-| TB(Terabyte) | 1 TB = 1024 GB    | YB(Yottabyte) | 1 YB = 1024 ZB |
+| MB(Megabyte) |  1 MB = 1024 KB   |  EB(Exabyte)  | 1 EB = 1024 PB |
+| GB(Gigabyte) |  1 GB = 1024 MB   | ZB(Zettabyte) | 1 ZB = 1024 EB |
+| TB(Terabyte) |  1 TB = 1024 GB   | YB(Yottabyte) | 1 YB = 1024 ZB |
 
 # Types of Memory
 
