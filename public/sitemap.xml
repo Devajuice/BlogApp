@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://juiceblogs.vercel.app/bst/</loc>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/categories/business-studies/</loc>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
+  </url><url>
     <loc>https://juiceblogs.vercel.app/categories/</loc>
-    <lastmod>2024-12-15T18:00:19+05:30</lastmod>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/</loc>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/categories/notes/</loc>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
+  </url><url>
+    <loc>https://juiceblogs.vercel.app/bst/privatepublicandglobalenterprise/</loc>
+    <lastmod>2024-12-16T21:48:12+05:30</lastmod>
   </url><url>
     <loc>https://juiceblogs.vercel.app/i.p/databaseconcepts/</loc>
     <lastmod>2024-12-15T18:00:19+05:30</lastmod>
@@ -14,23 +29,11 @@
     <loc>https://juiceblogs.vercel.app/i.p/</loc>
     <lastmod>2024-12-15T18:00:19+05:30</lastmod>
   </url><url>
-    <loc>https://juiceblogs.vercel.app/</loc>
-    <lastmod>2024-12-15T18:00:19+05:30</lastmod>
-  </url><url>
-    <loc>https://juiceblogs.vercel.app/categories/notes/</loc>
-    <lastmod>2024-12-15T18:00:19+05:30</lastmod>
-  </url><url>
     <loc>https://juiceblogs.vercel.app/i.p/computersystem/</loc>
     <lastmod>2024-12-15T17:11:10+05:30</lastmod>
   </url><url>
     <loc>https://juiceblogs.vercel.app/i.p/introductiontomysql/</loc>
     <lastmod>2024-12-15T11:47:05+05:30</lastmod>
-  </url><url>
-    <loc>https://juiceblogs.vercel.app/bst/</loc>
-    <lastmod>2024-12-14T21:49:37+05:30</lastmod>
-  </url><url>
-    <loc>https://juiceblogs.vercel.app/categories/business-studies/</loc>
-    <lastmod>2024-12-14T21:49:37+05:30</lastmod>
   </url><url>
     <loc>https://juiceblogs.vercel.app/bst/sourcesofbusinessfinance/</loc>
     <lastmod>2024-12-14T21:49:37+05:30</lastmod>
