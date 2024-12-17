@@ -82,16 +82,16 @@ avatar = "/images/avatar.webp"
 
 # Differences between Traditional business and e-business
 
-| No.    | Traditional Business              | E-Business                                          |
-| ------ | --------------------------------- | --------------------------------------------------- |
-| **1**. | Its formation is difficult        | Its formation is easy.                              |
-| **2**. | Investment is very high           | Investment is low                                   |
-| **3**. | Physical presence is required     | Physical presence is not required                   |
-| **4**. | Location is important             | Location is not important                           |
-| **5**. | Operating cost is high            | Operating costs are low.                            |
+|  No.   |       Traditional Business        |                     E-Business                      |
+| :----: | :-------------------------------: | :-------------------------------------------------: |
+| **1**. |    Its formation is difficult     |               Its formation is easy.                |
+| **2**. |      Investment is very high      |                  Investment is low                  |
+| **3**. |   Physical presence is required   |          Physical presence is not required          |
+| **4**. |       Location is important       |              Location is not important              |
+| **5**. |      Operating cost is high       |              Operating costs are low.               |
 | **6**. | Contact is through intermediaries | Direct contact with the suppliers and <br>customers |
-| **7**. | Business process cycle is long    | Business process cycle is shorter                   |
-| **8**. | Limited market coverage           | Access to the global market                         |
+| **7**. |  Business process cycle is long   |          Business process cycle is shorter          |
+| **8**. |      Limited market coverage      |             Access to the global market             |
 
 # Steps involved in online purchase
 
