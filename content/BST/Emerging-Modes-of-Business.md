@@ -89,7 +89,7 @@ avatar = "/images/avatar.webp"
 | **3**. |   Physical presence is required   |          Physical presence is not required          |
 | **4**. |       Location is important       |              Location is not important              |
 | **5**. |      Operating cost is high       |              Operating costs are low.               |
-| **6**. | Contact is through intermediaries | Direct contact with the suppliers and <br>customers |
+| **6**. | Contact is through intermediaries | Direct contact with the <br>suppliers and customers |
 | **7**. |  Business process cycle is long   |          Business process cycle is shorter          |
 | **8**. |      Limited market coverage      |             Access to the global market             |
 
