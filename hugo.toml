@@ -2,6 +2,7 @@ baseURL = 'https://juiceblogs.vercel.app/'
 languageCode = 'en-us'
 title = 'Juice Blog'
 favico = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 paginate = 4
 
@@ -12,8 +13,3 @@ paginate = 4
 [taxonomies]
  category = "categories"
  author = "authors" 
-
-[markup]
-  defaultMarkdownHandler = 'goldmark'
-
-ignoreLogs = ['warning-goldmark-raw-html']
