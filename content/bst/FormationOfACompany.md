@@ -93,8 +93,8 @@ avatar = "/images/avatar.webp"
 
 | Num |                 Memorandum of Association                  |                   Articles of Association                    |
 | :-: | :--------------------------------------------------------: | :----------------------------------------------------------: |
-| 1.  |           It defines the object of the company.            | It defines the rules of Internal management of the company.  |
-| 2.  |          It is the main document of the company.           |         It is a subsidiary document of the company.          |
-| 3.  | It defines the relationship of the company with outsiders. | It defines the relationship of the company with its members. |
-| 4.  |            Filing of Memorandum is compulsory.             |  Filing of Articles is not compulsory for public companies.  |
-| 5.  |         Alteration of memorandum is very difficult         |      It can be altered by passing a special resolution.      |
+| **1**.  |           It defines the object of the company.            | It defines the rules of Internal management of the company.  |
+| **2**.  |          It is the main document of the company.           |         It is a subsidiary document of the company.          |
+| **3**.  | It defines the relationship of the company with outsiders. | It defines the relationship of the company with its members. |
+| **4**.  |            Filing of Memorandum is compulsory.             |  Filing of Articles is not compulsory for public companies.  |
+| **5**.  |         Alteration of memorandum is very difficult         |      It can be altered by passing a special resolution.      |

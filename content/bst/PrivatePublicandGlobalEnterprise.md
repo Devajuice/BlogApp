@@ -44,13 +44,13 @@ avatar = "/images/avatar.webp"
 
 ### Public sector and Private sector - a comparison
 
-|                   Basis                    |                                    **Private Sector**                                     |                              **Public Sector**                              |
-| :----------------------------------------: | :---------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
-|               **Ownership**                |                                    Private Individuals                                    |                   State Government or Central Government                    |
-|               **Objective**                |                                    To maximise profit                                     |                          To promote public welfare                          |
-|         **Forms of organisations**         | Sole Proprietorship,<br>Partnership, HUF,<br>Joint Stock Company,<br>Co-Operative Society | Departmental Undertakings, Statutory,<br>Corporation and Government Company |
-|             **Accountability**             |                                   Accountable to owners                                   |                            Accountable to public                            |
-| **Political & Government<br>interference** |                                     Less interference                                     |                              More interference                              |
+|   No   |                   Basis                    |                                    **Private Sector**                                     |                              **Public Sector**                              |
+| :----: | :----------------------------------------: | :---------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| **1**. |               **Ownership**                |                                    Private Individuals                                    |                   State Government or Central Government                    |
+| **2**. |               **Objective**                |                                    To maximise profit                                     |                          To promote public welfare                          |
+| **3**. |         **Forms of organisations**         | Sole Proprietorship,<br>Partnership, HUF,<br>Joint Stock Company,<br>Co-Operative Society | Departmental Undertakings, Statutory,<br>Corporation and Government Company |
+| **4**. |             **Accountability**             |                                   Accountable to owners                                   |                            Accountable to public                            |
+| **5**. | **Political & Government<br>interference** |                                     Less interference                                     |                              More interference                              |
 
 # Forms of organising Public Sector Enterprises
 

@@ -40,13 +40,13 @@ avatar = "/images/avatar.webp"
 
 |                             Service                              |                             Goods                              |
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
-|                          1. An activity                          |                       A physical object                        |
-|                         2. Heterogeneous                         |                           Homogenous                           |
-|                          3. Intangible                           |                            Tangible                            |
-|       4. Different customers having<br>different demands.        | Different customers getting<br>standardised demands fulfilled. |
-|          5. Simultaneous production<br>and consumption           |            Separation of production and consumption            |
-|                  6. It cannot be kept in stock.                  |                      Can be kept in stock                      |
-| 7. Participation of customers<br>at the time of service delivery |   Involvement at the time of production is <br>not possible.   |
+|                          **1**. An activity                          |                       A physical object                        |
+|                         **2**. Heterogeneous                         |                           Homogenous                           |
+|                          **3**. Intangible                           |                            Tangible                            |
+|       **4**. Different customers having<br>different demands.        | Different customers getting<br>standardised demands fulfilled. |
+|          **5**. Simultaneous production<br>and consumption           |            Separation of production and consumption            |
+|                 **6**. It cannot be kept in stock.                  |                      Can be kept in stock                      |
+| **7**. Participation of customers<br>at the time of service delivery |   Involvement at the time of production is <br>not possible.   |
 
 # Types of Services
 
@@ -228,9 +228,9 @@ avatar = "/images/avatar.webp"
 
 |              Life Insurance               |            Fire Insurance             |                  Marine Insurance                  |
 |:-----------------------------------------:|:-------------------------------------:|:--------------------------------------------------:|
-|   1. The subject matter is human life.    |   The subject matter is any asset.    |  The subject matter is a ship, cargo or freight.   |
-| 2. Elements of protection and investment. |           Protection only.            |                  Protection only.                  |
-|   3. Period of coverage is long period.   | Period of coverage is up to one year. | Marine insurance policy is for a period of voyage. |
-|   4. It is not a contract of indeminty.   |        Contract of indeminity         |              Contract of indeminity.               |
-|         5. Loss is not measurable         |          Loss is measurable           |                 Loss is measurable                 |
-|    6. Surrender of policy is possible     |  Surrender of policy is not possible  |        Surrender of policy is not possible         |
+|   **1**. The subject matter is human life.    |   The subject matter is any asset.    |  The subject matter is a ship, cargo or freight.   |
+| **2**. Elements of protection and investment. |           Protection only.            |                  Protection only.                  |
+|   **3**. Period of coverage is long period.   | Period of coverage is up to one year. | Marine insurance policy is for a period of voyage. |
+|   **4**. It is not a contract of indeminty.   |        Contract of indeminity         |              Contract of indeminity.               |
+|         **5**. Loss is not measurable         |          Loss is measurable           |                 Loss is measurable                 |
+|    **6**. Surrender of policy is possible     |  Surrender of policy is not possible  |        Surrender of policy is not possible         |
