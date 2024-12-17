@@ -12,3 +12,6 @@ paginate = 4
 [taxonomies]
  category = "categories"
  author = "authors" 
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
