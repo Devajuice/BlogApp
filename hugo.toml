@@ -1,0 +1,15 @@
+baseURL = 'https://juiceblogs.vercel.app/'
+languageCode = 'en-us'
+title = 'Juice Blog'
+favico = true
+ignoreLogs = ['warning-goldmark-raw-html']
+
+paginate = 4
+
+[params]
+ description = "The page where you get notes."
+ dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+ category = "categories"
+ author = "authors" 
