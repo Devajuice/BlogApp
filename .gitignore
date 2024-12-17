@@ -1,6 +1,5 @@
 node_modules/
 .DS_Store
 hugo.toml
-vercel.json
 .hugo_build.lock
 .gitmodules
