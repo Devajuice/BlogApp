@@ -54,7 +54,6 @@ This is a Hugo static site generator project for my blog.
 
 # Features Pending
 
-- [ ] Search Bar
-
+* [ ] Search Bar
 
 **Enjoy building your blog with Hugo!**
