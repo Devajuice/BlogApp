@@ -52,4 +52,9 @@ This is a Hugo static site generator project for my blog.
 
 * Feel free to create pull requests with your improvements or bug fixes.
 
+# Features Pending
+
+- [ ] Search Bar
+
+
 **Enjoy building your blog with Hugo!**
