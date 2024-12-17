@@ -5,7 +5,7 @@ title = 'Business Services'
 description = "A detailed exploration of business services, covering their nature, types (including banking, insurance, and e-banking), key principles, and distinctions between services and goods. This guide also delves into various forms of insurance (life, fire, and marine) and their differences."
 image = "/images/BST/BS.webp"
 imageBig = "/images/BST/BS2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

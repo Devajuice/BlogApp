@@ -5,7 +5,7 @@ title = 'Elasticity Of Demand'
 description = "This guide delves into the concept of elasticity of demand, a fundamental economic principle that measures the responsiveness of demand to changes in price, income, or the price of related goods."
 image = "/images/Microeconomics/EOD.webp"
 imageBig = "/images/Microeconomics/eod2.webp"
-categories = ["Notes", "Microeconomics"]
+categories = ["Microeconomics"]
 authors = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

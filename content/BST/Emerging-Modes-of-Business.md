@@ -5,7 +5,7 @@ title = 'Emerging Modes of Business'
 description = "A comprehensive overview of e-business, its scope, benefits, limitations, and comparison with traditional business. Covers various aspects like B2B, B2C, C2C commerce, online purchasing steps, and security risks."
 image = "/images/BST/EMB.webp"
 imageBig = "/images/BST/EMB2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

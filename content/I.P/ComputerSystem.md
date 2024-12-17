@@ -5,7 +5,7 @@ title = 'Computer System'
 description = "A computer system is a complex interplay of hardware and software components that work together to process information."
 image = "/images/I.P/CS.webp"
 imageBig = "/images/I.P/CS2.webp"
-categories = ["Notes", "I.P"]
+categories = ["I.P"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

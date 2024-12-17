@@ -5,7 +5,7 @@ title = 'Consumers Equilibrium'
 description = "This guide explores the concept of consumer equilibrium, a fundamental economic principle that explains how consumers make rational choices to maximize their satisfaction."
 image = "/images/Microeconomics/CE.webp"
 imageBig = "/images/Microeconomics/CE2.webp"
-categories = ["Notes", "Microeconomics"]
+categories = ["Microeconomics"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

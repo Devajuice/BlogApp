@@ -5,7 +5,7 @@ title = 'Social Responsibilities of Business and Business Ethics'
 description = "This note covers the social responsibilities of businesses towards various stakeholders, including shareholders, workers, consumers, government, and the community. It also discusses environmental protection and the role businesses play in mitigating pollution. Finally, it explores business ethics and provides examples of ethical practices."
 image = "/images/BST/SR.webp"
 imageBig = "/images/BST/SR2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

@@ -5,7 +5,7 @@ title = 'Small Business and Entrepreneurship'
 description = "This comprehensive guide explores the world of small businesses and entrepreneurship,"
 image = "/images/BST/SBE.webp"
 imageBig = "/images/BST/SBE2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

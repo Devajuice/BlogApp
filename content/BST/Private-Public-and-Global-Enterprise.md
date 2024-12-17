@@ -5,7 +5,7 @@ title = 'Private Public and Global Enterprise'
 description = "This post explores the intricacies of the private, public, and global sectors of the Indian economy. Delve into the objectives, characteristics, and forms of public sector enterprises, and understand the key differences between public and private sector organizations. Additionally, learn about the nature and impact of global enterprises on the global economy."
 image = "/images/BST/PPAGE.webp"
 imageBig = "/images/BST/PPAGE2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

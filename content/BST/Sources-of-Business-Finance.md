@@ -5,7 +5,7 @@ title = 'Sources Of Business Finance'
 description = "Finance is the lifeblood of any business, providing the necessary funds to fuel its operations and growth. Business finance refers to the management of a company's financial resources, including the acquisition and allocation of funds to support its day-to-day activities and long-term strategic goals."
 image = "/images/BST/SOBF.webp"
 imageBig = "/images/BST/SOBF2.webp"
-categories = ["Notes", "Business-Studies"]
+categories = ["Business-Studies"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

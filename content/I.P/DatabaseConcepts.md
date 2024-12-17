@@ -5,7 +5,7 @@ title = 'Database Concepts'
 description = "Database Concepts: A Foundation for Data Management"
 image = "/images/I.P/DC.webp"
 imageBig = "/images/I.P/DC2.webp"
-categories = ["Notes", "I.P"]
+categories = ["I.P"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

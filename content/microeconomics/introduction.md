@@ -5,7 +5,7 @@ title = 'Introduction'
 description = "This comprehensive guide delves into the fundamental concepts of microeconomics, exploring how individual economic agents make decisions and interact within markets."
 image = "/images/Microeconomics/Intro.webp"
 imageBig = "/images/Microeconomics/Introduction2.webp"
-categories = ["Notes", "Microeconomics"]
+categories = ["Microeconomics"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++

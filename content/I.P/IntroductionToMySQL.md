@@ -5,7 +5,7 @@ title = 'Introduction To MySQL'
 description = "This is a comprehensive guide to MySQL, a popular relational database management system (RDBMS). It covers the basics of databases, SQL (Structured Query Language), data types, constraints, and data manipulation techniques."
 image = "/images/I.P/MySQL.webp"
 imageBig = "/images/I.P/MySQL2.webp"
-categories = ["Notes", "I.P"]
+categories = ["I.P"]
 author = ["Devajuice"]
 avatar = "/images/avatar.webp"
 +++
